@@ -1,5 +1,5 @@
-trigger triggerPush on Account (before insert) 
+trigger gi on Account (before insert) 
 {
-    System.debug('Hello world');
+    System.debug('Hello world changed');
 
 }
